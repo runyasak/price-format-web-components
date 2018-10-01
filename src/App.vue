@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <price-format :price="1000000000000"></price-format>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PriceFormat from './components/PriceFormat.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    PriceFormat
   }
 }
 </script>
